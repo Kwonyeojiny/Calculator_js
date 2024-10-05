@@ -115,6 +115,7 @@ html, body {
 	border-left: 2px solid rgb(255, 255, 255);
 	background-color: rgba(195, 195, 195, 1);
 
+	display: none;
 	position: absolute;
 	left: 30%;
 	top: 15%;
@@ -294,6 +295,7 @@ html, body {
 .footer_time{
 	width: 140px;
 	height: 50px;
+	margin-left: 8px;
 
 	border: 2px solid rgba(240, 240, 240, 1);
 	border-left: 2px solid rgba(126, 126, 126, 1);
@@ -335,6 +337,10 @@ html, body {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+}
+
+.footer_cal{
+	display: none;
 }
 
 .footer_item > img{
